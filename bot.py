@@ -114,7 +114,7 @@ def main():
                           port=PORT,
                           url_pat=bot_token)
                           #webhook_url="https://emitrbot.herokuapp.com/" + TOKEN)
-    updater.bot.set_webhook("https://trbot.herokuapp.com/" + TOKEN)
+    updater.bot.set_webhook("https://emitrbot.herokuapp.com/" + TOKEN)
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
