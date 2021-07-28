@@ -112,7 +112,7 @@ def main():
 
     updater.start_webhook(listen="0.0.0.0",
                           port=PORT,
-                          url_path=bot_token)
+                          url_path=bot_token,
                           webhook_url="https://emitrbot.herokuapp.com/" + bot_token)
     #updater.bot.set_webhook("https://emitrbot.herokuapp.com/" + bot_token)
 
