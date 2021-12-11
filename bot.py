@@ -104,10 +104,9 @@ def main():
                           port=PORT,
                           url_path=bot_token,
                           webhook_url="https://emitrbot.herokuapp.com/" + bot_token)
-                          
+
     updater.idle()
 
 
 if __name__ == '__main__':
-    
     main()
